@@ -4,34 +4,38 @@
 	"//3": "updating this file will download and update your packages",
 	"name": "FCC-Advanced-Node-and-Express",
 	"author": "http://github.com/JosephLivengood",
-	"version": "0.0.1",
-	"description": "What am I about?",
+	"version": "0.1.0",
+	"description": "SocialAuth learning test project",
 	"main": "server.js",
 	"scripts": {
-		"start": "node server.js"
+		"start": "node -r dotenv/config server.js"
 	},
 	"dependencies": {
-		"express": "^4.14.1",
-		"cors": "^2.8.1",
 		"body-parser": "^1.16.0",
-		"mongodb": "^2.2.22",
-		"helmet": "^3.4.0",
-		"pug": "^0.1.0",
-		"passport": "^0.3.2",
+		"cors": "^2.8.1",
+		"dotenv": "^8.2.0",
+		"express": "^4.14.1",
 		"express-session": "^1.15.0",
-		"passport-local": "^1.0.0"
+		"helmet": "^3.4.0",
+		"mongodb": "^3.6.0",
+		"nodemon": "^2.0.4",
+		"passport": "^0.3.2",
+		"passport-local": "^1.0.0",
+		"pug": "^3.0.0"
 	},
 	"engines": {
-		"node": "4.4.3"
+		"node": "12.0.0"
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://hyperdev.com/#!/project/welcome-project"
+		"url": "https://github.com/shartrooper/socialauth-boilerplate.git"
 	},
 	"keywords": [
 		"node",
-		"hyperdev",
-		"express"
+		"glitch",
+		"github",
+		"express",
+		"auth"
 	],
 	"license": "MIT"
 }
